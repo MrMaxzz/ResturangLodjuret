@@ -1,0 +1,74 @@
+.info-container {
+    position: relative;
+    background-color: rgb(19, 17, 17);
+    background-image: url('/Images/pizza-bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 25vh 5vw 15vh 5vw; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(19, 17, 17, 0.5);
+    z-index: 100;
+  }
+
+.slogan-container {
+    max-width: 25rem;
+    color: white;
+    position: relative;
+    z-index: 200;
+    text-shadow: 2px 2px 8px #000000b9;
+}
+
+#resturant-name {
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#slogan-text {
+    font-weight: 400;
+    font-style: italic;
+}
+
+#menu-button, #contact-button {
+    font-family: Poppins;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 0.5rem 1.5rem;
+    font-size: 12px;
+    font-weight: 500;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    margin-top: 4vh;
+
+    transition: box-shadow 0.15s ease; /* Add a transition for a smooth effect */
+}
+
+#contact-button {
+    color:rgb(245, 200, 90);
+    border-color: rgb(245, 200, 90);
+}
+
+#menu-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #fff; /* Increase the box shadow to create the illusion of a larger border */
+}
+
+#contact-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgb(245, 200, 90); /* Increase the box shadow to create the illusion of a larger border */
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem
+}

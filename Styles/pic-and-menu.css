@@ -1,0 +1,43 @@
+.resturant-picture {
+    transform: rotate(-8deg);
+    filter: brightness(80%);
+    border: 0.75vw solid #fff;
+    width: 35%;
+}
+
+.menu-container1,.menu-container2{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    color: #fff;
+}
+
+.menu-container2 {
+    justify-content: end;
+}
+
+.today-dishes {
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px #000000b9;
+}
+
+.fishplank-text {
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px #000000b9;
+}
+
+.fishplank-img {
+    transform: rotate(-8deg);
+    filter: brightness(80%);
+    border: 0.75vw solid #fff;
+    width: 45%;
+}
