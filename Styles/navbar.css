@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(35, 35, 35);
+    background-color: rgba(35, 35, 35,0.9);
     position: fixed; /* Add this line */
     top: 0; /* Add this line */
     width: 100%; /* Add this line */
@@ -66,7 +66,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgba(35, 35, 35,0.8);
+        background-color: rgba(35, 35, 35,0.9);
         backdrop-filter: blur(5px);
         display: flex;
         flex-direction: column;
