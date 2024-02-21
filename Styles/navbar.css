@@ -85,6 +85,7 @@ nav {
 
 .nav-active {
     transform: translateX(0%);
+    padding-left:0;
 }
 
 @keyframes navLinkFade {
