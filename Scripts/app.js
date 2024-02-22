@@ -11,9 +11,8 @@ const navSlide = () => {
             link.style.animation ='';
         }
         else {
-            link.style.animation = `navLinkFade 0.5s ease forwards ${index/10+0.5}s`;
+            link.style.animation = `navLinkFade 0.5s ease forwards ${index/10+0.1}s`;
         }
-        console.log(index / 7);
       });
 
       // Burger Animation
