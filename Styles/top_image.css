@@ -1,3 +1,13 @@
+.sticky-border {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(245, 200, 90,0.7);
+    position: sticky;
+    top:8.8vh;
+    content: '';
+    z-index: 400;
+}
+
 .info-container {
     position: relative;
     background-color: rgb(19, 17, 17);
@@ -5,10 +15,11 @@
     background-size: cover;
     background-position: center;
 
-    padding: 25vh 5vw 15vh 5vw; 
+    padding: 40vh 5vw 40vh 5vw; 
 }
 
 .overlay {
+    backdrop-filter: blur(5px);
     position: absolute;
     top: 0;
     right: 0;
@@ -23,7 +34,7 @@
     color: white;
     position: relative;
     z-index: 200;
-    text-shadow: 2px 2px 8px #000000b9;
+    text-shadow: 3px 3px 8px #000000b9;
 }
 
 #resturant-name {
@@ -72,3 +83,4 @@
     display: flex;
     gap: 1rem
 }
+

@@ -1,14 +1,18 @@
+
 .resturant-picture {
     transform: rotate(-8deg);
     filter: brightness(80%);
     border: 0.75vw solid #fff;
-    width: 35%;
+    width: 40%;
 }
 
 .menu-container1,.menu-container2{
-    margin-left: 5%;
-    margin-top: 10%;
-    margin-right: 5%;
+    background-color: rgb(19, 19, 20);
+    padding-left: 5%;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     display: flex;
     align-items: center;
     gap: 10vw;
@@ -16,14 +20,24 @@
 }
 
 .menu-container2 {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgba(228, 227, 227,0.7);
+    margin-top: 0;
     justify-content: end;
+    background-color: rgb(27, 27, 27);
 }
 
 .today-dishes {
     font-size: 1.5vw;
+    max-width: 40%;
     text-align: center;
     font-weight: 500;
     text-shadow: 2px 2px 8px #000000b9;
+}
+
+.fast-fact-txt {
+    font-size: 1vw;
 }
 
 .fishplank-text {
@@ -40,4 +54,36 @@
     filter: brightness(80%);
     border: 0.75vw solid #fff;
     width: 45%;
+}
+
+@media screen and (max-width: 768px){
+    .menu-container1{
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10vw;
+        color: #fff;
+    }
+
+    .resturant-picture {
+        transform: rotate(0);
+        filter: brightness(80%);
+        border: 0.75vw solid #fff;
+        width: 70%;
+    }
+    
+    .today-dishes {
+        font-size: 4vw;
+        max-width: 90%;
+        text-align: center;
+        font-weight: 500;
+        text-shadow: 2px 2px 8px #000000b9;
+    }
+
+    .fast-fact-txt {
+        font-size: 2.1vw;
+    }
 }
