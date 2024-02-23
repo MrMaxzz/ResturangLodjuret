@@ -22,9 +22,9 @@
 .menu-container2 {
     border-top: solid;
     border-width: 1px;
-    border-color: rgba(228, 227, 227,0.7);
+    border-color: rgba(228, 227, 227,0.3);
     margin-top: 0;
-    justify-content: end;
+    justify-content: space-between;
     background-color: rgb(27, 27, 27);
 }
 
@@ -40,24 +40,15 @@
     font-size: 1vw;
 }
 
-.fishplank-text {
-    font-style: italic;
-    letter-spacing: 2px;
-    font-size: 1vw;
-    text-align: center;
-    font-weight: 500;
-    text-shadow: 2px 2px 8px #000000b9;
-}
-
 .fishplank-img {
     transform: rotate(-8deg);
     filter: brightness(80%);
     border: 0.75vw solid #fff;
-    width: 45%;
+    width: 30%;
 }
 
 @media screen and (max-width: 768px){
-    .menu-container1{
+    .menu-container1, .menu-container2{
         margin-left: 5%;
         margin-top: 10%;
         margin-right: 5%;
@@ -68,11 +59,28 @@
         color: #fff;
     }
 
+    .menu-container2 {
+        flex-direction: column-reverse;
+        border-top: solid;
+        border-width: 1px;
+        border-color: rgba(228, 227, 227,0.3);
+        margin-top: 0;
+        justify-content: end;
+        background-color: rgb(27, 27, 27);
+    }
+
+    .fishplank-img {
+        transform: rotate(0deg);
+        filter: brightness(80%);
+        border: 0.75vw solid #fff;
+        width: 75%;
+    }
+
     .resturant-picture {
         transform: rotate(0);
         filter: brightness(80%);
         border: 0.75vw solid #fff;
-        width: 70%;
+        width: 85%;
     }
     
     .today-dishes {
