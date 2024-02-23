@@ -3,9 +3,9 @@
 	height: 1px;
 	background-color: rgba(245, 200, 90, 0.7);
 	position: sticky;
-	top: 12vh;
+	top: 10vh;
 	content: "";
-	z-index: 400;
+	z-index: 1000;
 }
 
 .info-container {
