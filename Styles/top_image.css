@@ -3,7 +3,7 @@
 	height: 1px;
 	background-color: rgba(245, 200, 90, 0.7);
 	position: sticky;
-	top: 11.6vh;
+	top: calc(8vh + 0.45em); /* Adjust the value as needed for additional spacing */
 	content: "";
 	z-index: 400;
 }
