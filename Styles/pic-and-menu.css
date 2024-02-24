@@ -1,97 +1,138 @@
-
 .resturant-picture {
-    transform: rotate(-8deg);
-    filter: brightness(80%);
-    border: 0.75vw solid #fff;
-    width: 40%;
+	transform: rotate(-8deg);
+	filter: brightness(80%);
+	border: 0.75vw solid #fff;
+	width: 40%;
 }
 
-.menu-container1,.menu-container2{
-    background-color: rgb(19, 19, 20);
-    padding-left: 5%;
-    margin-top: 0;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    align-items: center;
-    gap: 10vw;
-    color: #fff;
+.menu-container1,
+.menu-container2,
+.menu-container3,
+.menu-container4 {
+	background-color: rgb(19, 19, 20);
+	padding-left: 5%;
+	margin-top: 0;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	align-items: center;
+	gap: 10vw;
+	color: #fff;
 }
 
 .menu-container2 {
-    border-top: solid;
-    border-width: 1px;
-    border-color: rgba(228, 227, 227,0.3);
-    margin-top: 0;
-    justify-content: space-between;
-    background-color: rgb(27, 27, 27);
+	border-top: solid;
+	border-width: 1px;
+	border-color: rgba(228, 227, 227, 0.3);
+	margin-top: 0;
+	justify-content: space-between;
+	background-color: rgb(27, 27, 27);
 }
 
-.today-dishes {
-    font-size: 1.5vw;
-    max-width: 40%;
-    text-align: center;
-    font-weight: 500;
-    text-shadow: 2px 2px 8px #000000b9;
+.menu-container3 {
+	flex-direction: row-reverse;
+	border-top: solid;
+	border-width: 1px;
+	border-color: rgba(228, 227, 227, 0.3);
+	margin-top: 0;
+	justify-content: space-between;
+	background-color: rgb(19, 19, 20);
 }
 
-.fast-fact-txt {
-    font-size: 1vw;
+.menu-container4 {
+	border-top: solid;
+	border-width: 1px;
+	border-color: rgba(228, 227, 227, 0.3);
+	margin-top: 0;
+	justify-content: space-between;
+	background-color: rgb(27, 27, 27);
 }
 
 .fishplank-img {
-    transform: rotate(-8deg);
-    filter: brightness(80%);
-    border: 0.75vw solid #fff;
-    width: 30%;
+	transform: rotate(-8deg);
+	filter: brightness(80%);
+	border: 0.75vw solid #fff;
+	width: 30%;
 }
 
-@media screen and (max-width: 768px){
-    .menu-container1, .menu-container2{
-        margin-left: 5%;
-        margin-top: 10%;
-        margin-right: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10vw;
-        color: #fff;
-    }
+.greenpepper-beef {
+	transform: rotate(-8deg);
+	filter: brightness(80%);
+	border: 0.75vw solid #fff;
+	width: 30%;
+}
 
-    .menu-container2 {
-        flex-direction: column-reverse;
-        border-top: solid;
-        border-width: 1px;
-        border-color: rgba(228, 227, 227,0.3);
-        margin-top: 0;
-        justify-content: end;
-        background-color: rgb(27, 27, 27);
-    }
+.algbiff {
+	transform: rotate(8deg);
+	filter: brightness(80%);
+	border: 0.75vw solid #fff;
+	width: 30%;
+}
 
-    .fishplank-img {
-        transform: rotate(0deg);
-        filter: brightness(80%);
-        border: 0.75vw solid #fff;
-        width: 75%;
-    }
+.today-dishes {
+	font-size: 1.5vw;
+	max-width: 40%;
+	text-align: center;
+	font-weight: 500;
+	text-shadow: 2px 2px 8px #000000b9;
+}
 
-    .resturant-picture {
-        transform: rotate(0);
-        filter: brightness(80%);
-        border: 0.75vw solid #fff;
-        width: 85%;
-    }
-    
-    .today-dishes {
-        font-size: 4vw;
-        max-width: 90%;
-        text-align: center;
-        font-weight: 500;
-        text-shadow: 2px 2px 8px #000000b9;
-    }
+.fast-fact-txt {
+	font-size: 1vw;
+}
 
-    .fast-fact-txt {
-        font-size: 2.1vw;
-    }
+@media screen and (max-width: 768px) {
+	.menu-container1,
+	.menu-container2,
+	.menu-container3,
+	.menu-container4 {
+		margin-left: 5%;
+		margin-top: 10%;
+		margin-right: 5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10vw;
+		color: #fff;
+	}
+
+	.menu-container2,
+	.menu-container3,
+	.menu-container4 {
+		flex-direction: column-reverse;
+		border-top: solid;
+		border-width: 1px;
+		border-color: rgba(228, 227, 227, 0.3);
+		margin-top: 0;
+		justify-content: end;
+	}
+
+	.fishplank-img,
+	.greenpepper-beef,
+	.algbiff {
+		transform: rotate(0deg);
+		filter: brightness(80%);
+		border: 0.75vw solid #fff;
+		width: 75%;
+	}
+
+	.resturant-picture {
+		transform: rotate(0);
+		filter: brightness(80%);
+		border: 0.75vw solid #fff;
+		width: 85%;
+	}
+
+	.today-dishes {
+		font-size: 4vw;
+		max-width: 90%;
+		text-align: center;
+		font-weight: 500;
+		text-shadow: 2px 2px 8px #000000b9;
+	}
+
+	.fast-fact-txt {
+		font-size: 2.1vw;
+	}
 }
