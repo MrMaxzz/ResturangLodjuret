@@ -82,6 +82,16 @@
 	font-size: 1vw;
 }
 
+.happenings-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2% 0 2%;
+}
+
+.happenings-container img {
+	width: 30%;
+}
+
 @media screen and (max-width: 768px) {
 	.menu-container1,
 	.menu-container2,
