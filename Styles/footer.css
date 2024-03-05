@@ -1,4 +1,27 @@
 footer {
-    background-color: rgb(19, 19, 20);
-    color: white;
+	background-color: rgb(27, 27, 27);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h1 {
+	font-size: 65px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+}
+
+footer h3 {
+	font-size: 15px;
+}
+
+.booking {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
