@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../Styles\pic-and-menu.css" />
 		<link rel="stylesheet" type="text/css" href="../Styles\navbar.css" />
 		<link rel="stylesheet" type="text/css" href="../Styles\footer.css" />
+		<link rel="stylesheet" type="text/css" href="../Styles\carousel.css" />
 		<link
 			rel="apple-touch-icon"
 			sizes="180x180"
@@ -119,11 +120,22 @@
 			<section>
 				<div class="happenings-container">
 					<div><h2>Ditt evenemang i vår restaurang</h2></div>
-					<div class="events-img-container">
-						<img src="../Images/ev1-img.jpg" alt="" /><img
-							src="../Images/resturant-picture.jpg"
-							alt=""
-						/><img src="../Images/ev2-img.jpg" alt="" />
+					<div class="carousel" data-carousel>
+						<button class="carousel-button prev" data-carousel-button="prev">
+							<
+						</button>
+						<button class="carousel-button next" data-carousel-button="next">
+							>
+						</button>
+						<ul data-slides>
+							<li class="slide" data-active>
+								<img src="../Images/ev1-img.jpg" alt="" />
+							</li>
+							<li class="slide">
+								<img src="../Images/resturant-picture.jpg" alt="" />
+							</li>
+							<li class="slide"><img src="../Images/ev2-img.jpg" alt="" /></li>
+						</ul>
 					</div>
 				</div>
 			</section>
