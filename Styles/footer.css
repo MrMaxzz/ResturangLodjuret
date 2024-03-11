@@ -39,11 +39,10 @@ footer h3 {
 .facebook-icon {
 	height: 48px;
 	width: 48px;
-	transition: height 0.15s, width 0.15s;
+	transition: transform 0.15s ease-in-out;
 }
 
 .facebook-icon:hover {
-	height: 56px;
-	width: 56px;
+	transform: scale(1.2);
 	cursor: pointer;
 }
