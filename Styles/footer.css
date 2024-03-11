@@ -1,4 +1,5 @@
 footer {
+	border-top: 2px #fff solid;
 	background-color: rgb(27, 27, 27);
 	color: white;
 	display: flex;
@@ -15,7 +16,10 @@ footer h1 {
 }
 
 footer h3 {
+	margin: 8vh 2vw 0 2vw;
 	font-size: 15px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .booking {
@@ -24,4 +28,22 @@ footer h3 {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
+}
+
+.location {
+	text-decoration: none;
+	text-decoration: underline;
+	color: rgb(245, 200, 90);
+}
+
+.facebook-icon {
+	height: 48px;
+	width: 48px;
+	transition: height 0.15s, width 0.15s;
+}
+
+.facebook-icon:hover {
+	height: 56px;
+	width: 56px;
+	cursor: pointer;
 }
