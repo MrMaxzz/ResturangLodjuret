@@ -10,11 +10,21 @@ nav {
 	z-index: 900;
 }
 
+.logo-link {
+	text-decoration: none;
+	color: #fff;
+}
+
 .navlogo {
 	color: rgb(243, 243, 243);
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 20px;
+	transition: transform 0.15s ease-in-out;
+}
+
+.navlogo:hover {
+	transform: scale(1.1);
 }
 
 .nav-links {
@@ -25,12 +35,17 @@ nav {
 
 .nav-links li {
 	list-style: none;
+	transition: transform 0.15s ease-in-out;
+}
+
+.nav-links li:hover {
+	transform: scale(1.2);
 }
 
 .nav-links a {
 	color: rgb(243, 243, 243);
 	text-decoration: none;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-weight: 700;
 	font-size: 14px;
 }
@@ -86,7 +101,7 @@ nav {
 		backdrop-filter: blur(5px);
 		display: flex;
 		justify-content: start;
-		gap: 30px;
+		gap: 8vh;
 		flex-direction: column;
 		align-items: center;
 		width: 35%;
