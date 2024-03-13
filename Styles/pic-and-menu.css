@@ -10,6 +10,7 @@
 .menu-container2,
 .menu-container3,
 .menu-container4 {
+	font-style: italic;
 	justify-content: space-between;
 	background-color: rgb(19, 19, 20);
 	padding-left: 5%;
