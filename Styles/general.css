@@ -13,6 +13,10 @@ h3 {
 	margin: 0;
 }
 
+.activePage{
+  border-bottom: 2px solid rgb(245, 200, 90);
+}
+
 /* Style for making smooth scroll-animation **IMPORTANT**: Does not work in FireFox or Safari */
 
 .smoothScroll {

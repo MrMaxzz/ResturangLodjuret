@@ -32,7 +32,6 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	width: 40%;
-	margin-right: 2vw;
 }
 
 .nav-links li {
@@ -40,11 +39,11 @@ nav {
 	transition: transform 0.15s ease-in-out;
 }
 
-.nav-links li:hover {
+.nav-links li:hover a:not(.activePage) {
 	transform: scale(1.2);
 }
 
-.nav-links a {
+.nav-links a{
 	color: rgb(243, 243, 243);
 	text-decoration: none;
 	letter-spacing: 2px;
