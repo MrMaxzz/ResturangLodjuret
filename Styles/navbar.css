@@ -1,6 +1,6 @@
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	height: 10vh;
 	background-color: rgba(35, 35, 35, 0.95);
@@ -21,6 +21,7 @@ nav {
 	letter-spacing: 5px;
 	font-size: 20px;
 	transition: transform 0.15s ease-in-out;
+	margin-left:4vw;
 }
 
 .navlogo:hover {
@@ -31,6 +32,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	width: 40%;
+	margin-right: 2vw;
 }
 
 .nav-links li {
@@ -53,6 +55,7 @@ nav {
 .burger {
 	display: none;
 	cursor: pointer;
+	margin-right:2vw;
 }
 
 .burger div {
@@ -60,6 +63,7 @@ nav {
 	height: 3px;
 	background-color: rgb(243, 243, 243);
 	margin: 5px;
+	margin-right: 2vw;
 	transition: all 0.2s ease;
 }
 
@@ -106,6 +110,7 @@ nav {
 		align-items: center;
 		width: 35%;
 		transform: translateX(100%);
+		margin-right: 0;
 		transition: transform 0.3s ease-in;
 	}
 	.nav-links li {
