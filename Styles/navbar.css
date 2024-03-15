@@ -103,7 +103,7 @@ nav {
 		z-index: 1000;
 		right: 0px;
 		height: 92vh;
-		top: 7vh;
+		top: 8vh;
 		background-color: rgba(35, 35, 35, 0.95);
 		backdrop-filter: blur(5px);
 		display: flex;
