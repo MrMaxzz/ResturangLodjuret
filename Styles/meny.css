@@ -1,49 +1,74 @@
-img {
+img:not(.facebook-icon){
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Adjust the values as needed */
 }
 
+.overviewMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin: 15vh 10vw 0 10vw;
+    border: dashed 2px rgb(245, 200, 90);
+    background-color: rgb(27, 27, 27);
+}
+
+.menu-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.today-dish {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    font-weight: 500;
+    text-decoration: underline;
+    color: white;
+}
+
 .menu-section {
-    margin-top: 8vh;
+    margin-top: 0vh;
 }
 
 .menu_pages-container {
     display: flex;
     flex-direction: column;
-    padding: 10vh 35vw 10vh 35vw;
+    padding: 7vh 35vw 10vh 35vw;
     gap: 5vh;
 }
 
 @media screen and (min-width: 1200px) {
     /* Large devices */
     .menu_pages-container {
-        padding: 10vh 25vw; /* Adjust padding for larger devices */
+        padding: 7vh 25vw; /* Adjust padding for larger devices */
     }
 }
 
 @media screen and (max-width: 1200px) {
     /* Medium-sized devices */
     .menu_pages-container {
-        padding: 10vh 20vw; /* Adjust padding for medium-sized devices */
+        padding: 7vh 20vw; /* Adjust padding for medium-sized devices */
     }
 }
 
 @media screen and (max-width: 992px) {
     /* Tablets landscape and smaller */
     .menu_pages-container {
-        padding: 10vh 15vw; /* Adjust padding for tablets landscape and smaller */
+        padding: 7vh 15vw; /* Adjust padding for tablets landscape and smaller */
     }
 }
 
 @media screen and (max-width: 768px) {
     /* Tablets portrait and smaller */
     .menu_pages-container {
-        padding: 10vh 10vw; /* Adjust padding for tablets portrait and smaller */
+        padding: 7vh 10vw; /* Adjust padding for tablets portrait and smaller */
     }
 }
 
 @media screen and (max-width: 576px) {
     /* Phones and smaller */
     .menu_pages-container {
-        padding: 10vh 5vw; /* Adjust padding for phones and smaller */
+        padding: 7vh 5vw; /* Adjust padding for phones and smaller */
     }
 }

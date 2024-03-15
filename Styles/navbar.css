@@ -39,7 +39,7 @@ nav {
 	transition: transform 0.15s ease-in-out;
 }
 
-.nav-links li:hover a:not(.activePage) {
+.nav-links li:hover:not(.activePage) {
 	transform: scale(1.2);
 }
 
@@ -50,6 +50,10 @@ nav {
 	font-weight: 700;
 	font-size: 14px;
 }
+
+.activePage{
+	border-bottom: 2px solid rgb(245, 200, 90);
+  }
 
 .burger {
 	display: none;
