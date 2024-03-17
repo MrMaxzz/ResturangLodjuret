@@ -1,0 +1,10 @@
+.gallery {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.big-img {
+    display:block
+}
+
