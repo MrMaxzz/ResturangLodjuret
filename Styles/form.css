@@ -1,0 +1,69 @@
+/* Base styles */
+/* Placeholder styles */
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+	color: #999; /* Placeholder text color */
+	font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+	max-width: 50%;
+	margin: 20vh auto;
+	padding: 20px;
+	background-color: rgb(27, 27, 27);
+	border: 2px rgb(245, 200, 90) solid;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+	color: rgb(245, 200, 90);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form-container form {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+}
+
+.form-container input,
+.form-container textarea {
+	font-family: Poppins, Arial, Helvetica, sans-serif;
+	padding: 18px;
+	border: none;
+	border-radius: 5px;
+	width: 80%;
+	resize: none;
+}
+
+.form-container textarea {
+	height: 30vh;
+}
+
+.form-container button[type="submit"] {
+	padding: 10px 20px;
+	font-family: Poppins, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	background-color: rgb(245, 200, 90);
+	color: #000;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-container button[type="submit"]:hover {
+	background-color: rgb(208, 154, 19);
+	transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+	.form-container {
+		max-width: 90%;
+		margin: 20vh auto;
+	}
+}
