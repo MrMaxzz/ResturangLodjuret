@@ -43,3 +43,24 @@ buttons.forEach((button) => {
 		delete activeSlide.dataset.active;
 	});
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+	const observer = new IntersectionObserver(
+		(entries, observer) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					entry.target.style.transition = "opacity 0.6s ease-in-out"; // Add CSS transition
+					entry.target.style.opacity = 1; // Fade in the image
+				} else {
+					entry.target.style.opacity = 0; // Fade out the image when out of view
+				}
+			});
+		},
+		{ threshold: 0.5 }
+	);
+
+	const images = document.querySelectorAll(".photo-smooth");
+	images.forEach((img) => {
+		observer.observe(img);
+	});
+});
