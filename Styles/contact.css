@@ -1,0 +1,22 @@
+.contact-container {
+    color:white;
+    margin: 8vh auto;
+    padding: 2% 2%;
+    width: 80vw;
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(245, 200, 90);
+    border-radius: 8px;
+}
+
+.map {
+    width: 100%;
+    height: 40vh;
+}
+
+.map > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
