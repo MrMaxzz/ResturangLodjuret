@@ -3,7 +3,7 @@
 	height: 2px;
 	background-color: rgba(245, 200, 90, 0.7);
 	position: sticky;
-	top: 10vh;
+	top: 11vh;
 	content: "";
 	z-index: 800;
 }
