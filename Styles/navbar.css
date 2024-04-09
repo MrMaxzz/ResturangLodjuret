@@ -2,7 +2,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 10vh;
+	height: 11vh;
 	background-color: rgba(35, 35, 35, 0.95);
 	position: fixed; /* Add this line */
 	top: 0; /* Add this line */
