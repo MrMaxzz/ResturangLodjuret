@@ -21,7 +21,7 @@ nav {
 	letter-spacing: 5px;
 	font-size: 20px;
 	transition: transform 0.15s ease-in-out;
-	margin-left:4vw;
+	margin-left: 4vw;
 }
 
 .navlogo:hover {
@@ -43,7 +43,7 @@ nav {
 	transform: scale(1.2);
 }
 
-.nav-links a{
+.nav-links a {
 	color: rgb(243, 243, 243);
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -51,14 +51,14 @@ nav {
 	font-size: 14px;
 }
 
-.activePage{
+.activePage {
 	border-bottom: 2px solid rgb(245, 200, 90);
-  }
+}
 
 .burger {
 	display: none;
 	cursor: pointer;
-	margin-right:2vw;
+	margin-right: 2vw;
 }
 
 .burger div {
