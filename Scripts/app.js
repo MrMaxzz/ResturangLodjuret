@@ -64,20 +64,3 @@ document.addEventListener("DOMContentLoaded", () => {
 		observer.observe(img);
 	});
 });
-
-function validateForm() {
-    // Check if all fields are filled
-    const name = document.querySelector('input[name="Name"]').value;
-    const email = document.querySelector('input[name="Email"]').value;
-    const subject = document.querySelector('input[name="Subject"]').value;
-    const message = document.querySelector('textarea[name="Message"]').value;
-
-    if (name && email && subject && message) {
-      // All fields are filled, allow form submission
-      return true;
-    } else {
-      // Fields are missing, prevent form submission and show an alert
-      alert("Please fill in all required fields.");
-      return false;
-    }
-  }
